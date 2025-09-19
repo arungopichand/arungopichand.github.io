@@ -4,30 +4,6 @@ description: "My personal journey and reflections 🌱"
 
 theme: minima
 
-# Blogspot-style features
-show_excerpts: true
-paginate: 5
-paginate_path: "/page:num/"
-
-# Enable categories and archives
-plugins:
-  - jekyll-paginate
-  - jekyll-archives
-
-jekyll-archives:
-  enabled:
-    - categories
-    - year
-    - month
-  layout: archive
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-
-    include:
-  - assets/css/custom.css
-    category: '/category/:name/'
-
 # Navigation menu items
 nav_links:
   - title: "Home"
