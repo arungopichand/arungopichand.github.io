@@ -27,3 +27,14 @@ jekyll-archives:
     include:
   - assets/css/custom.css
     category: '/category/:name/'
+
+# Navigation menu items
+nav_links:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Journey"
+    url: /journey/
+  - title: "Contact"
+    url: /contact/
