@@ -23,4 +23,7 @@ jekyll-archives:
   permalinks:
     year: '/:year/'
     month: '/:year/:month/'
+
+    include:
+  - assets/css/custom.css
     category: '/category/:name/'
