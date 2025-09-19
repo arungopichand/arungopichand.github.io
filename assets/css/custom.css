@@ -68,3 +68,34 @@ a:hover {
   color: #005999;
   text-decoration: underline;
 }
+
+/* Top navigation bar */
+.navbar {
+  background: #111;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar a:hover {
+  color: #ff3fff;
+  text-shadow: 0 0 6px #ff3fff;
+}
