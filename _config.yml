@@ -1,5 +1,26 @@
 title: "Arun's Personal Blog"
 author: "Arun Gopichand"
-description: "My personal journey and reflections "
+description: "My personal journey and reflections 🌱"
 
-theme: jekyll-theme-cayman   # clean, modern blog theme
+theme: minima
+
+# Blogspot-style features
+show_excerpts: true
+paginate: 5
+paginate_path: "/page:num/"
+
+# Enable categories and archives
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - year
+    - month
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    category: '/category/:name/'
